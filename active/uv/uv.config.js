@@ -1,6 +1,6 @@
 self.__uv$config = {
-    prefix: '/service/',
-    bare: 'https://ult-66t6.onrender.com', // 👈 your backend URL
+    prefix: '/bare/',                             // must match backend prefix
+    bare: 'https://ult-66t6.onrender.com',        // your Render backend URL
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv.handler.js',
